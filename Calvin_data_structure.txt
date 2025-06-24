@@ -1,0 +1,144 @@
+================================================================================
+CALVIN Dataset Analysis
+Dataset Path: /data/sea_disk0/zhangxx/calvin/dataset/calvin_debug_dataset
+================================================================================
+
+TRAINING DATA ANALYSIS:
+--------------------------------------------------
+Number of episodes in training: 2771
+
+File: /data/sea_disk0/zhangxx/calvin/dataset/calvin_debug_dataset/training/episode_0358482.npz
+----------------------------------------------------------------------------------------
+actions (Dataset)
+  - Type: float64
+  - Shape: (7,)
+depth_gripper (Dataset)
+  - Type: float32
+  - Shape: (84, 84)
+depth_static (Dataset)
+  - Type: float32
+  - Shape: (200, 200)
+depth_tactile (Dataset)
+  - Type: float32
+  - Shape: (160, 120, 2)
+rel_actions (Dataset)
+  - Type: float64
+  - Shape: (7,)
+rgb_gripper (Dataset)
+  - Type: uint8
+  - Shape: (84, 84, 3)
+rgb_static (Dataset)
+  - Type: uint8
+  - Shape: (200, 200, 3)
+rgb_tactile (Dataset)
+  - Type: uint8
+  - Shape: (160, 120, 6)
+robot_obs (Dataset)
+  - Type: float64
+  - Shape: (15,)
+scene_obs (Dataset)
+  - Type: float64
+  - Shape: (24,)
+
+LANGUAGE ANNOTATIONS (training):
+--------------------------------------------------
+
+File: /data/sea_disk0/zhangxx/calvin/dataset/calvin_debug_dataset/training/lang_annotations/auto_lang_ann.npy
+-------------------------------------------------------------------------------------------------------
+info/ (Group)
+  - Type: Group
+  - Keys: ['episodes', 'indx']
+  episodes (List/Tuple)
+    - Type: list
+    - Length: 0
+  indx (List/Tuple)
+    - Type: list
+    - Length: 9
+    - Element type: tuple
+language/ (Group)
+  - Type: Group
+  - Keys: ['ann', 'task', 'emb']
+  ann (List/Tuple)
+    - Type: list
+    - Length: 9
+    - Element type: str
+  emb (Dataset)
+    - Type: float32
+    - Shape: (9, 1, 384)
+  task (List/Tuple)
+    - Type: list
+    - Length: 9
+    - Element type: str
+
+VALIDATION DATA ANALYSIS:
+--------------------------------------------------
+Number of episodes in validation: 1675
+
+File: /data/sea_disk0/zhangxx/calvin/dataset/calvin_debug_dataset/validation/episode_0553567.npz
+------------------------------------------------------------------------------------------
+actions (Dataset)
+  - Type: float64
+  - Shape: (7,)
+depth_gripper (Dataset)
+  - Type: float32
+  - Shape: (84, 84)
+depth_static (Dataset)
+  - Type: float32
+  - Shape: (200, 200)
+depth_tactile (Dataset)
+  - Type: float32
+  - Shape: (160, 120, 2)
+rel_actions (Dataset)
+  - Type: float64
+  - Shape: (7,)
+rgb_gripper (Dataset)
+  - Type: uint8
+  - Shape: (84, 84, 3)
+rgb_static (Dataset)
+  - Type: uint8
+  - Shape: (200, 200, 3)
+rgb_tactile (Dataset)
+  - Type: uint8
+  - Shape: (160, 120, 6)
+robot_obs (Dataset)
+  - Type: float64
+  - Shape: (15,)
+scene_obs (Dataset)
+  - Type: float64
+  - Shape: (24,)
+
+LANGUAGE ANNOTATIONS (validation):
+--------------------------------------------------
+
+File: /data/sea_disk0/zhangxx/calvin/dataset/calvin_debug_dataset/validation/lang_annotations/auto_lang_ann.npy
+---------------------------------------------------------------------------------------------------------
+info/ (Group)
+  - Type: Group
+  - Keys: ['episodes', 'indx']
+  episodes (List/Tuple)
+    - Type: list
+    - Length: 0
+  indx (List/Tuple)
+    - Type: list
+    - Length: 8
+    - Element type: tuple
+language/ (Group)
+  - Type: Group
+  - Keys: ['ann', 'task', 'emb']
+  ann (List/Tuple)
+    - Type: list
+    - Length: 8
+    - Element type: str
+  emb (Dataset)
+    - Type: float32
+    - Shape: (8, 1, 384)
+  task (List/Tuple)
+    - Type: list
+    - Length: 8
+    - Element type: str
+
+File: /data/sea_disk0/zhangxx/calvin/dataset/calvin_debug_dataset/validation/lang_annotations/embeddings.npy
+------------------------------------------------------------------------------------------------------
+embeddings (Dataset)
+  - Type: object
+  - Shape: ()
