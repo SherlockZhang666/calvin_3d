@@ -295,7 +295,7 @@ def run_env(cfg):
 
     env.reset()
     while True:
-        env.step(np.array((0.0, 0, 0, 0, 0, 1)))
+        env.step(np.array((0.0, 0,0, 0, 0, 0, 1)))
         # env.render()
         time.sleep(0.01)
 
